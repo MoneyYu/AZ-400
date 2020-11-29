@@ -3,7 +3,7 @@ resource "azurerm_kubernetes_cluster" "lab16" {
   name                = local.lab16_name_with_postfix
   location            = azurerm_resource_group.group.location
   resource_group_name = azurerm_resource_group.group.name
-  dns_prefix          = local.lab16_name
+  dns_prefix          = local.lab16_name_with_postfix
 
   default_node_pool {
     name       = "default"

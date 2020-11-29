@@ -1,6 +1,6 @@
-RESOURCE_GROUP='AZ400'
+$RESOURCE_GROUP='AZ400-11260425'
 
-AKS_CLUSTER='lab16rig'
+$AKS_CLUSTER='lab16pxw'
 
 # retrieve the credentials to access the AKS cluster
 az aks get-credentials --resource-group $RESOURCE_GROUP --name $AKS_CLUSTER
