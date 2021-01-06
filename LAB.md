@@ -17,8 +17,7 @@
 
 [M05: Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 [M05: Integrate Your GitHub with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
-[M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
-[M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
+
 
 [M06: Integrating Azure Key Vault with Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
 
@@ -29,6 +28,8 @@
 [M09: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
 
 [M10](no lab)
+[M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
+[M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 
 [M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
 [M11: Using secrets from Azure Key Vault in a pipeline](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
