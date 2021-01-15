@@ -34,7 +34,15 @@
 [M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
 [M11: Using secrets from Azure Key Vault in a pipeline](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
 [M11: Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
+> Q: Unable to find the location of Dac Framework (SqlPackage.exe) from registry on machine.
+> 
+> A: Install the DaC formework
+https://stackoverflow.com/a/65133048
+
 [M11: Controlling Deployments using Release Gates](https://www.azuredevopslabs.com/labs/vstsextend/releasegates/)
+> Q: TF401243: The query does not exist, or you do not have permission to read it.
+> 
+> A: Manually granted "ReleaseGate build service" read access to the query
 
 [M12: Feature Flag Management with LaunchDarkly and Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/launchdarkly/)
 
@@ -45,6 +53,11 @@
 [M15: Deploying a Dockerized Java App to Azure Web App for Containers](https://azuredevopslabs.com/labs/vstsextend/dockerjava/)
 
 [M16: Deploying a Multi-Container Application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes/#access-the-kubernetes-web-dashboard-in-azure-kubernetes-service-aks)
+> Q: az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
+> A Cloud Shell credential problem occurred.
+> AzureResponseError: Failed to connect to MSI. Please make sure MSI is configured correctly.
+> 
+> A: Reboot the cloud shell
 
 [M17: Deploy App with Chef on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithChefonAzure.html)
 [M17: Deploy App with Puppet on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
@@ -52,7 +65,11 @@
 [M17: Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
 
 [M18: Implement Security and Compliance in Azure DevOps Pipelines](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-SecurityandComplianceinpipeline.html)
+> Duplicate
 
 [M19: Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vsts/teams/)
+> 免費版 Teams 不支援 Connector
+
+> [Office 365 E3 Free Trail](https://www.microsoft.com/zh-tw/microsoft-365/enterprise/office-365-e3)
 
 [M20: No Lab](https://dev.azure.com)
