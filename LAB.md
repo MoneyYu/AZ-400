@@ -47,6 +47,9 @@ https://stackoverflow.com/a/65133048
 [M12: Feature Flag Management with LaunchDarkly and Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/launchdarkly/)
 
 [M13: Monitoring Application Performance with Application Insights](https://azuredevopslabs.com/labs/azuredevops/appinsights/)
+> Q: PartsUnlimited.DepValidation.modelproj
+> 
+> A: Ignore that project
 
 [M14: Azure Deployments using Resource Manager templates](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-AZ-400T05AppInfra.html)
 
@@ -65,7 +68,7 @@ https://stackoverflow.com/a/65133048
 [M17: Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
 
 [M18: Implement Security and Compliance in Azure DevOps Pipelines](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-SecurityandComplianceinpipeline.html)
-> Duplicate
+#> Duplicate
 
 [M19: Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vsts/teams/)
 > 免費版 Teams 不支援 Connector

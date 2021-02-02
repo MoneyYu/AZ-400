@@ -1,0 +1,15 @@
+# Login
+# az login
+
+# Create Resource Group
+az group create --name myResourceGroup --location eastus
+
+# Create VM
+az vm create `
+    --resource-group myResourceGroup `
+    --name myVM `
+    --image win2016datacenter `
+    --admin-username azureuser
+
+# Deploy ARM Template
+# az deployment group create --resource-group <resource-group-name> --template-file <path-to-template>
