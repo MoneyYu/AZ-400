@@ -18,7 +18,6 @@
 [M05: Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 [M05: Integrate Your GitHub with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
-
 [M06: Integrating Azure Key Vault with Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
 
 [M07: Managing Technical Debt with Azure DevOps and SonarCloud](https://www.azuredevopslabs.com/labs/azuredevops/sonarcloud/)
@@ -32,7 +31,6 @@
 [M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 
 [M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
-[M11: Using secrets from Azure Key Vault in a pipeline](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
 [M11: Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
 > Q: Unable to find the location of Dac Framework (SqlPackage.exe) from registry on machine.
 > 
@@ -67,8 +65,7 @@ https://stackoverflow.com/a/65133048
 [M17: Automating Infrastructure Deployments in the Cloud with Ansible and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/ansible/)
 [M17: Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
 
-[M18: Implement Security and Compliance in Azure DevOps Pipelines](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-SecurityandComplianceinpipeline.html)
-#> Duplicate
+[M18: No Lab](https://dev.azure.com)
 
 [M19: Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vsts/teams/)
 > 免費版 Teams 不支援 Connector
