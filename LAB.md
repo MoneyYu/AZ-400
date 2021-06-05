@@ -31,7 +31,6 @@
 
 
 [M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
-[M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 
 [M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
 [M11: Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
@@ -56,6 +55,7 @@
 
 [M15: Deploying a Dockerized Java App to Azure Web App for Containers](https://azuredevopslabs.com/labs/vstsextend/dockerjava/)
 
+[M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 [M16: Deploying a Multi-Container Application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes/#access-the-kubernetes-web-dashboard-in-azure-kubernetes-service-aks)
 > Q: az role assignment create --assignee $CLIENT_ID --role acrpull --scope $ACR_ID
 > A Cloud Shell credential problem occurred.
@@ -67,6 +67,9 @@
 [M17: Deploy App with Puppet on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
 [M17: Automating Infrastructure Deployments in the Cloud with Ansible and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/ansible/)
 [M17: Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
+
+[DSC Lab](https://docs.microsoft.com/en-us/azure/automation/tutorial-configure-servers-desired-state)
+[DSC 待選](https://github.com/autocloudarc/0026-azure-automation-plus-dsc-lab)
 
 [M18: No Lab](https://dev.azure.com)
 
