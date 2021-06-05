@@ -27,6 +27,9 @@
 [M09: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
 
 [M10](no lab)
+[Setting up a CI/CD pipeline for Azure Functions](https://azuredevopslabs.com//labs/vstsextend/azurefunctions/)
+
+
 [M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
 [M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 
@@ -35,7 +38,7 @@
 > Q: Unable to find the location of Dac Framework (SqlPackage.exe) from registry on machine.
 > 
 > A: Install the DaC formework
-https://stackoverflow.com/a/65133048
+> https://stackoverflow.com/a/65133048
 
 [M11: Controlling Deployments using Release Gates](https://www.azuredevopslabs.com/labs/vstsextend/releasegates/)
 > Q: TF401243: The query does not exist, or you do not have permission to read it.
@@ -69,7 +72,6 @@ https://stackoverflow.com/a/65133048
 
 [M19: Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vsts/teams/)
 > 免費版 Teams 不支援 Connector
-
 > [Office 365 E3 Free Trail](https://www.microsoft.com/zh-tw/microsoft-365/enterprise/office-365-e3)
 
 [M20: No Lab](https://dev.azure.com)
