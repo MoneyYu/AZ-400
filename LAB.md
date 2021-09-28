@@ -7,7 +7,7 @@
 [Prerequisites](https://www.azuredevopslabs.com/labs/azuredevops/prereq/)
 [LODS](https://aka.ms/tsfblabs)
 
-[M01: Agile Planning and Portfolio Management with Azure Boards Agile Planning and Portfolio Management with Azure Boards](https://www.azuredevopslabs.com/labs/azuredevops/agile/)
+[M01: Agile Planning and Portfolio Management with Azure Boards](https://www.azuredevopslabs.com/labs/azuredevops/agile/)
 
 [M02: Version Controlling with Git in Azure Repos (Exercises 1-5)](https://www.azuredevopslabs.com/labs/azuredevops/git/)
 

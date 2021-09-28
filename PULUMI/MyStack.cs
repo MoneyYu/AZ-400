@@ -1,43 +1,42 @@
-using System;
-using System.Threading.Tasks;
 using Pulumi;
+using Pulumi.AzureNative.Migrate;
 using Pulumi.AzureNative.Resources;
-using Pulumi.AzureNative.Storage;
-using Pulumi.AzureNative.Storage.Inputs;
+using Pulumi.AzureNative.Web;
+using Pulumi.AzureNative.Web.Inputs;
+using System;
 
 class MyStack : Stack
 {
     public MyStack()
     {
+        Random random = new Random();
+        int num = random.Next();
+        string suffix = num.ToString("X").Substring(0, 4).ToLower();
+
         // Create an Azure Resource Group
-        var resourceGroup = new ResourceGroup($"AZ-400{DateTimeOffset.Now:MMddHHmm}");
+        var az400Group = new ResourceGroup($"AZ-400",
+            new ResourceGroupArgs() { Location = AzureLocation.SoutheastAsia.ToString(), ResourceGroupName = $"AZ-400-{suffix}" });
 
-        // Create an Azure resource (Storage Account)
-        var storageAccount = new StorageAccount("sa", new StorageAccountArgs
+        var lab01Plan = new AppServicePlan($"lab01", new AppServicePlanArgs()
         {
-            ResourceGroupName = resourceGroup.Name,
-            Sku = new SkuArgs
+            Name = $"lab01-{suffix}",
+            ResourceGroupName = az400Group.Name,
+            Location = az400Group.Location,
+            Sku = new SkuDescriptionArgs
             {
-                Name = SkuName.Standard_LRS
+                Name = "S1",
+                Tier = "Standard",
+                Size = "S1"
             },
-            Kind = Kind.StorageV2
+            Kind = "app"
         });
 
-        // Export the primary key of the Storage Account
-        this.PrimaryStorageKey = Output.Tuple(resourceGroup.Name, storageAccount.Name).Apply(names =>
-            Output.CreateSecret(GetStorageAccountPrimaryKey(names.Item1, names.Item2)));
-    }
-
-    [Output]
-    public Output<string> PrimaryStorageKey { get; set; }
-
-    private static async Task<string> GetStorageAccountPrimaryKey(string resourceGroupName, string accountName)
-    {
-        var accountKeys = await ListStorageAccountKeys.InvokeAsync(new ListStorageAccountKeysArgs
+        var lab01App = new WebApp($"lab01", new WebAppArgs
         {
-            ResourceGroupName = resourceGroupName,
-            AccountName = accountName
+            Name = $"lab01-{suffix}",
+            Location = az400Group.Location,
+            ResourceGroupName = az400Group.Name,
+            ServerFarmId = lab01Plan.Id,
         });
-        return accountKeys.Keys[0].Value;
     }
 }
