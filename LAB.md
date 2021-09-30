@@ -7,14 +7,15 @@
 [Prerequisites](https://www.azuredevopslabs.com/labs/azuredevops/prereq/)
 [LODS](https://aka.ms/tsfblabs)
 
+## Azure Boards
 [M01: Agile Planning and Portfolio Management with Azure Boards](https://www.azuredevopslabs.com/labs/azuredevops/agile/)
 
+## Azure Repos
 [M02: Version Controlling with Git in Azure Repos (Exercises 1-5)](https://www.azuredevopslabs.com/labs/azuredevops/git/)
 
 [M03: Version Controlling with Git in Azure Repos (Exercises 6-7)](https://www.azuredevopslabs.com/labs/azuredevops/git/)
 
-[M04: Package Management with Azure Artifacts](https://www.azuredevopslabs.com/labs/azuredevops/packagemanagement/)
-
+## Azure Pipeline CI
 [M05: Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 [M05: Integrate Your GitHub with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
@@ -22,13 +23,12 @@
 
 [M07: Managing Technical Debt with Azure DevOps and SonarCloud](https://www.azuredevopslabs.com/labs/azuredevops/sonarcloud/)
 
-[M08: Modernizing Your Existing ASP.NET Apps with Azure](https://www.azuredevopslabs.com/labs/vstsextend/aspnetmodernize/)
-
 [M09: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
 
-[M10](no lab)
-[Setting up a CI/CD pipeline for Azure Functions](https://azuredevopslabs.com//labs/vstsextend/azurefunctions/)
+## Azure Pipeline CD
+[M10: Setting up a CI/CD pipeline for Azure Functions](https://azuredevopslabs.com//labs/vstsextend/azurefunctions/)
 
+[M04: Package Management with Azure Artifacts](https://www.azuredevopslabs.com/labs/azuredevops/packagemanagement/)
 
 [M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
 
@@ -51,9 +51,9 @@
 > 
 > A: Ignore that project
 
-[M14: Azure Deployments using Resource Manager templates](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-AZ-400T05AppInfra.html)
-
 [M15: Deploying a Dockerized Java App to Azure Web App for Containers](https://azuredevopslabs.com/labs/vstsextend/dockerjava/)
+
+[M08: Modernizing Your Existing ASP.NET Apps with Azure](https://www.azuredevopslabs.com/labs/vstsextend/aspnetmodernize/)
 
 [M05: Deploying a multi-container application to Azure Kubernetes Services](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)
 [M16: Deploying a Multi-Container Application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes/#access-the-kubernetes-web-dashboard-in-azure-kubernetes-service-aks)
@@ -63,6 +63,9 @@
 > 
 > A: Reboot the cloud shell
 
+## IaC
+[M14: Azure Deployments using Resource Manager templates](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-AZ-400T05AppInfra.html)
+
 [M17: Deploy App with Chef on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithChefonAzure.html)
 [M17: Deploy App with Puppet on Azure](http://microsoft.github.io/PartsUnlimitedMRP/iac/200.2x-IaC-DeployappwithPuppetonAzure.html)
 [M17: Automating Infrastructure Deployments in the Cloud with Ansible and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/ansible/)
@@ -71,8 +74,8 @@
 [DSC Lab](https://docs.microsoft.com/en-us/azure/automation/tutorial-configure-servers-desired-state)
 [DSC 待選](https://github.com/autocloudarc/0026-azure-automation-plus-dsc-lab)
 
-[M18: No Lab](https://dev.azure.com)
 
+## Collaboration
 [M19: Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vsts/teams/)
 > 免費版 Teams 不支援 Connector
 > [Office 365 E3 Free Trail](https://www.microsoft.com/zh-tw/microsoft-365/enterprise/office-365-e3)
