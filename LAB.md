@@ -11,28 +11,31 @@
 [M01: Agile Planning and Portfolio Management with Azure Boards](https://www.azuredevopslabs.com/labs/azuredevops/agile/)
 
 ## Azure Repos
-[M02: Version Controlling with Git in Azure Repos (Exercises 1-5)](https://www.azuredevopslabs.com/labs/azuredevops/git/)
+[M02: Version Controlling with Git in Azure Repos](https://www.azuredevopslabs.com/labs/azuredevops/git/)
 
-[M03: Version Controlling with Git in Azure Repos (Exercises 6-7)](https://www.azuredevopslabs.com/labs/azuredevops/git/)
+[M04: Working with Pull Requests in Visual Studio Code and Azure DevOps](https://azuredevopslabs.com/labs/azuredevops/pullrequests/)
 
 ## Azure Pipeline CI
-[M05: Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
-[M05: Integrate Your GitHub with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
+[M05: Enabling Continuous Integration with Azure Pipelines (CLASSIC)](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
+[M05: Integrate Your GitHub with Azure Pipelines (YAML)](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
 [M06: Integrating Azure Key Vault with Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
 
 [M07: Managing Technical Debt with Azure DevOps and SonarCloud](https://www.azuredevopslabs.com/labs/azuredevops/sonarcloud/)
 
-[M09: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
+[M07: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
+
+[M08: Lab 08: Implementing GitHub Actions by using DevOps Starter](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/AZ400_M08_Implementing_GitHub_Actions_by_using_DevOps_Starter.html)
 
 ## Azure Pipeline CD
+[M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
+
 [M10: Setting up a CI/CD pipeline for Azure Functions](https://azuredevopslabs.com//labs/vstsextend/azurefunctions/)
 
 [M04: Package Management with Azure Artifacts](https://www.azuredevopslabs.com/labs/azuredevops/packagemanagement/)
 
 [M05: Configuring a CD pipeline for your Jenkins CI](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
 
-[M11: Configuring CI/CD Pipelines as Code with YAML in Azure DevOps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/)
 [M11: Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
 > Q: Unable to find the location of Dac Framework (SqlPackage.exe) from registry on machine.
 > 
