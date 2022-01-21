@@ -88,6 +88,8 @@
 [M17: Automating Infrastructure Deployments in the Cloud with Ansible and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/ansible/)
 [M17: Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/terraform/)
 
+[Azure Bicep getting start](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/quickstart-create-bicep-use-visual-studio-code?tabs=CLI)
+
 [DSC Lab](https://docs.microsoft.com/en-us/azure/automation/tutorial-configure-servers-desired-state)
 [DSC 待選](https://github.com/autocloudarc/0026-azure-automation-plus-dsc-lab)
 
