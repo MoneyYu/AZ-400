@@ -10,7 +10,7 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
 Connect-AzAccount
 
 # Create Resource Group
-New-AzResourceGroup -Name "myResourceGroup2" -Location "southeastasia"
+New-AzResourceGroup -Name "myResourceGroup2" -Location "eastus"
 
 # Create VM
 New-AzVm `
