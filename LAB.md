@@ -30,8 +30,6 @@ GA: UA-117096964-1
 [M05: Enabling Continuous Integration with Azure Pipelines (CLASSIC)](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 [M05: Integrate Your GitHub with Azure Pipelines (YAML)](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
-[M06: Integrating Azure Key Vault with Azure DevOps](https://www.azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
-
 [M07: Managing Technical Debt with Azure DevOps and SonarCloud](https://www.azuredevopslabs.com/labs/azuredevops/sonarcloud/)
 
 [M07: Managing Open-Source Security and License (sic) with WhiteSource](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/)
